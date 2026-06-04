@@ -31,6 +31,15 @@ Depending on the process being performed, this tool automates the following offi
 
 ---
 
+## 🚀 How to Install & Run
+
+1. Download the `ps5-mkpfs-command-suite-v1.0.0.zip` package from the **Releases** tab.
+2. Extract the files directly to your Linux **Desktop** screen.
+3. Open your terminal window and run this single line to authorize the launcher icon:
+   gio set ~/Desktop/MkPFS_Suite.desktop metadata::trusted true && chmod +x ~/Desktop/MkPFS_Suite.desktop
+4. Double-click the **MkPFS Command Suite** icon on your desktop to run the application instantly!
+
+
 ## Requirements & License
 * Designed and optimized for Linux systems running Python 3.8+ with `python3-tk` extensions.
 * Uses native file system hooks for balanced UI layouts.
