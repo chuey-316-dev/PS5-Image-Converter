@@ -33,11 +33,10 @@ Depending on the process being performed, this tool automates the following offi
 
 1. Download the `MKPFS GUI.zip` package from the **Releases** tab.
 2. Extract the files to your preferred folder.
-3. Open a terminal window inside that extracted folder, copy this exact command, paste it in, and press **Enter**:
-
-gio set "MKPFS GUI.desktop" metadata::trusted true && chmod +x "MKPFS GUI.desktop"
-
-4. Run the application by double-clicking the **MKPFS GUI** icon.
+3. Navigate into the extracted folder, **right-click an empty space**, and select **"Open in Terminal"**.
+4. Copy this exact command, paste it into the terminal, and press **Enter**:
+   chmod +x "MKPFS GUI"
+5. Close the terminal. You can now run the application anytime by double-clicking the **MKPFS GUI.sh** file in the install folder.
 
 ---
 
