@@ -5,7 +5,7 @@ A graphical user interface for Renan Barreto's mkpfs work, created by chuey_316
 A native desktop graphical user interface (GUI) designed for the PlayStation 5 homebrew community to simplify `mkpfs` operations. This utility automates game image handling for pipelines like **ShadowMountPlus**.
 
 * **GUI Frontend Wrapper Created by:** chuey_316
-* **Original Core CLI Engine Created by:** Renan Barreto
+* **Original Core CLI Engine Created by:** Renan Barreto 
 
 ---
 
@@ -34,3 +34,4 @@ Depending on the process being performed, this tool automates the following offi
 ## Requirements & License
 * Designed and optimized for Linux systems running Python 3.8+ with `python3-tk` extensions.
 * Uses native file system hooks for balanced UI layouts.
+* Free to use and share.
