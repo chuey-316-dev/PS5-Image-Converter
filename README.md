@@ -1,6 +1,4 @@
-# ps5-mkpfs-GUI
-A graphical user interface for Renan Barreto's mkpfs work, created by chuey_316
-# PS5 MkPFS Command Suite v1.0.0
+# MKPFS GUI v1.0.0
 
 A native desktop graphical user interface (GUI) designed for the PlayStation 5 homebrew community to simplify `mkpfs` operations. This utility automates game image handling for pipelines like **ShadowMountPlus**.
 
