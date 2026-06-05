@@ -1,4 +1,4 @@
-# PS5 Image Converter v1.0.0
+# PS5 Image Converter
 
 A native desktop graphical user interface (GUI) designed for the PlayStation 5 homebrew community to simplify `mkpfs` operations. This utility automates game image handling for pipelines like **ShadowMountPlus**.
 
