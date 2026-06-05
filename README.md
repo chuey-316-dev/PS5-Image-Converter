@@ -1,4 +1,4 @@
-# MKPFS GUI v1.0.0
+# PS5 Image Converter v1.0.0
 
 A native desktop graphical user interface (GUI) designed for the PlayStation 5 homebrew community to simplify `mkpfs` operations. This utility automates game image handling for pipelines like **ShadowMountPlus**.
 
@@ -31,12 +31,12 @@ Depending on the process being performed, this tool automates the following offi
 
 ## 🚀 How to Install & Run
 
-1. Download the `MKPFS GUI.zip` package from the **Releases** tab.
+1. Download the `PS5 Image Converter.zip` package from the **Releases** tab.
 2. Extract the files to your preferred folder.
 3. Navigate into the extracted folder, **right-click an empty space**, and select **"Open in Terminal"**.
 4. Copy this exact command, paste it into the terminal, and press **Enter**:
-   chmod +x "MKPFS GUI"
-5. Close the terminal. You can now run the application anytime by double-clicking the **MKPFS GUI.sh** file in the install folder.
+   chmod +x "PS5 Image Converter"
+5. Close the terminal. You can now run the application anytime by double-clicking the **PS5 Image Converter.sh** file in the install folder.
 
 ---
 
