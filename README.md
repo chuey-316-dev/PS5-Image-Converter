@@ -2,7 +2,7 @@
 
 A native desktop graphical user interface (GUI) designed for the PlayStation 5 homebrew community to simplify `mkpfs` operations. This utility automates game image handling for pipelines like **ShadowMountPlus**.
 
-* **GUI Frontend Wrapper Created by:** chuey_316
+* **GUI Frontend Wrapper Created by:** _chuey_316_
 * **Original Core CLI Engine Created by:** Renan Barreto 
 
 ---
