@@ -1,46 +1,43 @@
 # PS5 Image Converter
 
-A native desktop graphical user interface (GUI) designed for the PlayStation 5 homebrew community to simplify `mkpfs` operations. This utility automates game image handling for pipelines like **ShadowMountPlus**.
+A user-friendly GUI tool for converting images for PS5, powered by a robust CLI core.
 
-* **GUI Frontend Wrapper Created by:** \_chuey\_316\_
-* **Original Core CLI Engine Created by:** Renan Barreto 
+## How to Install & Run
 
----
+### Linux Standalone Version (Recommended)
+1. **Download** the `PS5ImageConverter` executable from the Releases page.
+2. **Right-click** the file, select **Properties**, and go to the **Permissions** tab.
+3. Check **"Allow executing file as program"** (or run `chmod +x PS5ImageConverter` in your terminal).
+4. **Launch:** Simply double-click the file to open. No installation or dependencies required.
 
-## Features
-* **Visual Mode Selection**: Dynamically switch between packing files, packing folders, inspecting metadata, and unpacking images.
-* **Dark Mode Stability**: Pre-configured system layout integrations preventing text visibility blocks on Linux Mint dark themes.
-* **Auto-Formatting Elements**: Handles file strings containing internal spaces perfectly without character truncation errors.
-* **Real-time Console Tracking**: An integrated live terminal log tracking compression progress benchmarks smoothly.
+### Linux Script-Based Version
+1. **Download and extract** the `PS5_Image_Converter.zip` package.
+2. **Install system dependencies** (see *Requirements* below).
+3. **Grant execution permissions** to the launcher script. Open a terminal in the folder and run:
+   chmod +x "PS5 Image Converter.sh"
+4. **Launch:** Double-click the `PS5 Image Converter.sh` file.
 
----
-
-## Developer Command Suite Targets
-Depending on the process being performed, this tool automates the following official developer syntax:
-
-* **Convert an .exfat or .ffpkg file into a PFSC compressed image .ffpfsc**
-  `mkpfs pack file --compress --verify input.exfat output.ffpfsc`
-* **Convert a homebrew folder into a PFS image with compression and verification**
-  `mkpfs pack folder --compress --verify input-app output.ffpfs`
-* **Inspect the generated image**
-  `mkpfs inspect input.ffpfs`
-* **Unpack the image back into a folder**
-  `mkpfs unpack input.ffpfs output-extracted/`
+### Windows Version (Coming Soon)
+1. **Download and extract** the `PS5_Image_Converter.zip` package.
+2. **Launch:** Double-click the `PS5 Image Converter` executable inside the folder. (Fully portable, no command line required).
 
 ---
 
-## 🚀 How to Install & Run
+## 📋 Requirements
 
-1. Download the `PS5 Image Converter.zip` package from the **Releases** tab.
-2. Extract the files to your preferred folder.
-3. Navigate into the extracted folder, **right-click an empty space**, and select **"Open in Terminal"**.
-4. Copy this exact command, paste it into the terminal, and press **Enter**:
-   chmod +x "PS5 Image Converter"
-5. Close the terminal. You can now run the application anytime by double-clicking the **PS5 Image Converter.sh** file in the install folder.
+### Linux Support
+* **Python 3.8+**: Ensure you have Python 3 installed.
+* **Tkinter**: Required for the GUI.
+    * *Debian/Ubuntu/Mint*: sudo apt install python3-tk
+* **Zenity**: Required for file browser popups.
+    * *Debian/Ubuntu/Mint*: sudo apt install zenity
+
+### Windows Support
+* Natively compatible with Windows 7 64-bit and all newer versions (Windows 10/11) with zero extra setup.
 
 ---
 
-## Requirements & License
-* Designed and optimized for Linux systems running Python 3.8+ with `python3-tk` extensions.
-* Uses native file system hooks for balanced UI layouts.
+## ⚖️ Credits
+* **GUI Frontend:** KyroMod
+* **Core CLI Engine:** Renan Barreto
 * Free to use and share.
